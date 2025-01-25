@@ -6,7 +6,6 @@ const connectDB = require('./config/db');
 require('dotenv').config({ path: __dirname + '/.env' });
 console.log('MONGO_URI:', process.env.MONGO_URI || 'Not Loaded');
 
-
 const app = express();
 
 connectDB();
